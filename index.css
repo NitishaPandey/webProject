@@ -1,21 +1,40 @@
   .icon{
 	background-color: #8B008B;
 	height: 500px;
-	width: 500px;
+	width: 100%;
+  overflow: hidden;
 }
+
+.HeaderStyle{
+  color: white;
+  font-size: 75px;
+  position: absolute;
+  top : 35%;
+  left : 25%
+}
+
 
 .icon-img{
   align-items: center;
 	width: 100%;
+  height: auto;
+  z-index: -1;
+  /* overflow: hidden; */
 }
 
 .smallBox{
 font-style: italic;
-color: blue;
-font-size: 280%;
+color: white;
+height: 50px;
+border: 1px solid red;
+width: 33%;
+background-color: tomato;
 display: inline;
 }
 
 #m01{
   display: inline;
+}
+body{
+  margin: 0px;
 }
