@@ -1,0 +1,3 @@
+git init
+git add filename
+git push/pull origin branch( default is master)

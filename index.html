@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Nitisha's First Project</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	</script>
+
+</head>
+<body>
+	<div class="icon">
+		<img class="icon-img" src="https://res.cloudinary.com/dwo3ekdje/image/upload/v1545515326/44.jpg">
+	</div>
+		<h4 id = "m01"> </h4>
+	<script>
+		$(document).ready(function(){
+		var myElement = $("#m01");
+		for(var i = 1 ; i < 13 ; i++){
+			myElement.append(i+ " ").addClass("smallBox");
+		}
+	});
+	</script>
+</body>
+</html>

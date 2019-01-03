@@ -1,0 +1,21 @@
+  .icon{
+	background-color: #8B008B;
+	height: 500px;
+	width: 500px;
+}
+
+.icon-img{
+  align-items: center;
+	width: 100%;
+}
+
+.smallBox{
+font-style: italic;
+color: blue;
+font-size: 280%;
+display: inline;
+}
+
+#m01{
+  display: inline;
+}
