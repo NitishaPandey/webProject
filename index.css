@@ -24,12 +24,15 @@
 
 .smallBox{
 font-style: italic;
-color: white;
+font-size: 2.5em;
+text-align: center;
+word-spacing: 0.3em;
+color: tomato;
 height: 50px;
-border: 1px solid red;
-width: 33%;
-background-color: tomato;
-display: inline;
+border: 1px solid red ;
+width: 32.4%;
+background-color:white;
+display: inline-block;
 }
 
 #m01{
